@@ -9,7 +9,7 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1, #banner-msg h1, #hero-msg h4 {
     text-align: center;
     color: #F0F4F2;
 }
@@ -70,7 +70,7 @@ footer {
     justify-content: space-around;
     align-items: center; 
 }
-.home-title {
+.home-title, .rivers-title {
     color:  black;
     font-family: "Fuzzy Bubbles", Helvetica, sans-serif;
     font-size: 2em;
@@ -108,7 +108,7 @@ footer a:hover {
 .logo {
     width: 80px;
 }
-#hero-img {
+#hero-img, #banner-img {
     width: 100%;
 }
 footer p {
@@ -160,6 +160,22 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.salmon {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.desolation {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.grand {
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -192,8 +208,23 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#banner-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 275px;
+}
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, #banner, .river-grid, .home-grid {
         display: block;
         height: auto;
     }
@@ -204,16 +235,16 @@ nav {
         display: block;
         padding: 15px;
     }
-    #hero {
+    #hero, #banner {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, #banner-msg {
         margin-top: 0;
     }
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .rivers-title {
         font-size: 25px;
         color: #6f7364;
     }
