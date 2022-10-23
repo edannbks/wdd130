@@ -277,38 +277,7 @@ footer a:hover {
   padding-block-end: 75px;
   margin-top: 100px;
 }
-@media screen and (max-width: 500px) {
-  .boxes, .misc {
-      display: inline-block;
-      height: auto;
-  }
-  nav, footer {
-      flex-direction: row;
-  }
-  nav a {
-      display: block;
-      padding: 15px;
-  }
-  .main p {
-      display: inline-block;
-  }
-  .home-title, .rivers-title {
-      font-size: 25px;
-      color: #6f7364;
-  }
-  .darkbox, .lighbox { 
-      margin: 50px auto;
-      width: 60%;
-  }
-  .main h1 {
-      width: 80%;
-      display: inline-block;
-      margin: auto auto;
-  }
-  footer {
-      margin-top: 25px;
-  }
-}
+
 
 
 
