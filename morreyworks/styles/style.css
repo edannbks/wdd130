@@ -302,8 +302,8 @@ footer a:hover {
   }
   .main h1 {
       width: 80%;
-      display: block;
-      margin: 0 auto;
+      display: inline-block;
+      margin: auto auto;
   }
   footer {
       margin-top: 25px;
