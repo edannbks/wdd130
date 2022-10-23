@@ -181,7 +181,7 @@ footer a:hover {
     color:  #F0F4F2;
     background-color: #5D3A00;
 }
-.boxes {
+#boxes {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 } 
@@ -225,7 +225,7 @@ footer a:hover {
   padding-top: 100px;
   padding-right: 75px;  
 }
-.misc {
+#misc {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 100px;   
