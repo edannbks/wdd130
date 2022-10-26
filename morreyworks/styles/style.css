@@ -279,7 +279,7 @@ footer a:hover {
 }
 .contactme {
   display:grid;
-  grid-template-columns: repeat(8 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   padding-top: 25px;
   background: #5D3A00;
   padding-bottom: 150px;   
