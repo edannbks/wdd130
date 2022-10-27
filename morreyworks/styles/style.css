@@ -133,7 +133,7 @@ main {
 main h4 {
     padding-bottom: 50px;
 }
-.mwg-home {
+#mwg-home {
     display:grid;
     grid-template-columns: .75fr 1.5fr .75fr;
     padding-top: 70px;   
