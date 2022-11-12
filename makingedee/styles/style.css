@@ -242,12 +242,17 @@ footer a:hover {
   margin-top: 90px;
 }
 .ray1-img {
-  width: 300px;
-  grid-column: 1/2
+  width: 500px;
+  grid-column: 4/6
 }
 .ray2-img {
   width: 900px;
-  grid-column: 3/9;
+  grid-column: 1/9;
+  margin-top: 90px;
+}
+.ray3-img {
+  width: 900px;
+  grid-column: 1/9;
   margin-top: 90px;
 }
 .bryce1-img {
